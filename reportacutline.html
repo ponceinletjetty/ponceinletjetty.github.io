@@ -49,7 +49,8 @@ p {
 
 .form {
     width: 100px;
-    margin-left: 390px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
@@ -110,7 +111,7 @@ p {
 <br>
 <br>
 <div class="border">
-<p style="width: 150px; text-align: center; margin-right: auto; margin-left: auto;"><strong>Select zone:</strong></p>
+<p style="width: 150px; text-align: center; margin-right: auto; margin-left: auto; color: black;"><strong>Select zone:</strong></p>
 
 <div class="form">
 <form method="post"; action="/jettylines.php">
@@ -125,10 +126,9 @@ p {
         <option value="Zone 7">
     </datalist>
 </form>
-	</div>
 </div>
 
-<p style="width: 300px; text-align: center; margin-right: auto; margin-left: auto;"><strong>Select number of broken lines lost:</strong></p>
+<p style="width: 300px; text-align: center; margin-right: auto; margin-left: auto; color: black;"><strong>Select number of broken lines lost:</strong></p>
 
 <div class="form">
 <form method="post"; action="/jettylines.php">
@@ -142,14 +142,15 @@ p {
     </datalist>
 </form>   
 </div>
-
+	
 <br>
 <div class="button">
 <form>
     <input type="submit"; action="/jettylines.php">
 </form>
+	</div>
 </div>
-
+	
 <br>
 <br>
 <br>
