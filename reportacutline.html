@@ -70,6 +70,10 @@ p {
 	width: 304px;
 	margin: auto;
 }
+	
+	function enableBtn(){
+   document.getElementById("button1").disabled = false;
+ }
 
 </style>
 	
@@ -146,7 +150,7 @@ p {
 <br>
 <div class="button">
 <form>
-    <input type="submit"; action="/jettylines.php">
+    <input type="button"; value="Submit"; id="button1"; disabled="disabled"; action="/jettylines.php">
 </form>
 	</div>
 <br>
